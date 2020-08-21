@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Test;
 class MinimarketTest {
 
 	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
 	public void setupEscenary1() {
 		// TODO - implement MinimarketTest.setupEscenary1
 		throw new UnsupportedOperationException();
@@ -24,5 +29,6 @@ class MinimarketTest {
 		// TODO - implement MinimarketTest.registerTest
 		throw new UnsupportedOperationException();
 	}
+
 
 }
