@@ -15,7 +15,10 @@ class MinimarketTest {
 	
 	public void setupScenary1() throws InvalidIdException, InvalidIdTypeException {
 		mini = new Minimarket();
-		mini.register(2, "1234567");
+		if(LocalDate.now().getDayOfMonth()%2 != 0)
+			mini.register(2, "1234567");
+		else
+			mini.register(2, "1234576");
 	}
 	
 	public void setupScenary2() throws InvalidIdException, InvalidIdTypeException {
