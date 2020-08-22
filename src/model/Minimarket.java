@@ -67,4 +67,18 @@ public class Minimarket {
 		this.count = count;
 	}
 
+	/**
+	 * @return the clients
+	 */
+	public ArrayList<Client> getClients() {
+		return clients;
+	}
+
+	/**
+	 * @param clients the clients to set
+	 */
+	public void setClients(ArrayList<Client> clients) {
+		this.clients = clients;
+	}
+
 }

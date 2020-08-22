@@ -4,6 +4,6 @@ package exceptions;
 public class InvalidIdException extends Exception {
 
 	public InvalidIdException() {
-		super("This isn't your day to get out of your house, bitch");
+		super("This isn't your day to get out of your house, come tomorrow");
 	}
 }

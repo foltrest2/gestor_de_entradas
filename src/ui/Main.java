@@ -29,6 +29,7 @@ public class Main {
 		String id = lector.nextLine();
 		try {
 			minimarket.register(choice, id);
+			System.out.println("\nWelcome to the minimarket!\n");
 		}
 		catch(InvalidIdTypeException e) {
 			System.err.println(e.getMessage());
@@ -49,7 +50,7 @@ public class Main {
 			break;
 
 		case SHOW_TRY_ENTRY:
-			System.out.println(minimarket.getCount());
+			System.out.println("The people have tried to entry are: "+minimarket.getCount());
 			break;
 
 		case EXIT:
