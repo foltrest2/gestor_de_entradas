@@ -74,11 +74,4 @@ public class Minimarket {
 		return clients;
 	}
 
-	/**
-	 * @param clients the clients to set
-	 */
-	public void setClients(ArrayList<Client> clients) {
-		this.clients = clients;
-	}
-
 }

@@ -27,7 +27,7 @@ class MinimarketTest {
 		mini = new Minimarket();
 		if(LocalDate.now().getDayOfMonth()%2 != 0)
 			mini.register(3, "1234567");
-		if(LocalDate.now().getDayOfMonth()%2 == 0)
+		else
 			mini.register(4, "1234576");
 	}
 	
